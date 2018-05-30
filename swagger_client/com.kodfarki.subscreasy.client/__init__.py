@@ -1,0 +1,24 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from com.kodfarki.subscreasy.client.analytics_resource_api import AnalyticsResourceApi
+from com.kodfarki.subscreasy.client.card_resource_api import CardResourceApi
+from com.kodfarki.subscreasy.client.charging_log_resource_api import ChargingLogResourceApi
+from com.kodfarki.subscreasy.client.company_props_resource_api import CompanyPropsResourceApi
+from com.kodfarki.subscreasy.client.company_resource_api import CompanyResourceApi
+from com.kodfarki.subscreasy.client.coupon_resource_api import CouponResourceApi
+from com.kodfarki.subscreasy.client.endpoints_api import EndpointsApi
+from com.kodfarki.subscreasy.client.history_resource_api import HistoryResourceApi
+from com.kodfarki.subscreasy.client.invoice_resource_api import InvoiceResourceApi
+from com.kodfarki.subscreasy.client.message_template_resource_api import MessageTemplateResourceApi
+from com.kodfarki.subscreasy.client.offer_resource_api import OfferResourceApi
+from com.kodfarki.subscreasy.client.profile_info_resource_api import ProfileInfoResourceApi
+from com.kodfarki.subscreasy.client.service_instance_resource_api import ServiceInstanceResourceApi
+from com.kodfarki.subscreasy.client.service_offering_resource_api import ServiceOfferingResourceApi
+from com.kodfarki.subscreasy.client.service_resource_api import ServiceResourceApi
+from com.kodfarki.subscreasy.client.subscriber_resource_api import SubscriberResourceApi
+from com.kodfarki.subscreasy.client.subsription_resource_api import SubsriptionResourceApi
+from com.kodfarki.subscreasy.client.usage_notification_resource_api import UsageNotificationResourceApi
+from com.kodfarki.subscreasy.client.user_resource_api import UserResourceApi
